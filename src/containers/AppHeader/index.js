@@ -22,7 +22,7 @@ const AppHeader = ({ history }) => {
 
   return (
     <div className="app-header">
-      <a href="/">
+      <a href="/hacker-news">
         <ImageComponent
           imageName="hacker-news-logo.gif"
           imageAlt="hacker-news-logo"
