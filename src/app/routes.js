@@ -7,7 +7,7 @@ const Routes = () => {
   return (
     <Dashboard>
       <Switch>
-        <Route exact path="/" component={NewsList} />
+        <Route exact path="/hacker-news" component={NewsList} />
       </Switch>
     </Dashboard>
   );
