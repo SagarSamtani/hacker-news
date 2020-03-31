@@ -1,0 +1,62 @@
+@import "../../css/global/vairables.scss";
+// @import "../../css/global/mixins.scss";
+
+.row-container {
+  display: flex;
+  align-items: center;
+  font-size: 0.6875rem;
+
+  .number-of-comments {
+    width: 90px;
+    justify-content: center;
+  }
+  .title {
+    font-size: 0.8125rem;
+  }
+  .upvote-arrow-img {
+    height: 8px;
+    width: 8px;
+    margin: 5px 5px 0;
+    cursor: pointer;
+  }
+
+  a:link {
+    color: $black-color;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $grey-text-color;
+    text-decoration: none;
+  }
+  .link-domain {
+    cursor: pointer;
+    color: #828890;
+  }
+  .posted-when {
+    color: #828890;
+  }
+  .username {
+    color: #b8b9bb;
+  }
+  .author {
+    color: $black-color;
+  }
+  .row-elements {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 3px;
+  }
+  .upvotes-count {
+    width: 25px;
+    text-align: right;
+  }
+  .hide {
+    cursor: pointer;
+  }
+  .ml-5 {
+    margin-left: 5px;
+  }
+}
+.row-container:nth-child(even) {
+  background-color: #e6e6df;
+}
