@@ -20,21 +20,17 @@
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
     "redux-persist": "^5.10.0",
-    "redux-thunk": "^2.3.0",
-    "sinon": "^9.0.1"
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://sagarsamtani.github.io/hacker-news/",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -46,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
   }
 }
