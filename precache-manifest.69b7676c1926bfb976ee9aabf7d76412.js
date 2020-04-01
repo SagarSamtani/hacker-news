@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b090009d9d3b7524a8080e091227e500",
+    "revision": "08c03d31dcbbd95debe5443ba995c5ff",
     "url": "/hacker-news/index.html"
   },
   {
-    "revision": "a78bf892566f40edf15b",
-    "url": "/hacker-news/static/css/main.ba572630.chunk.css"
+    "revision": "826b4b71d98d64b4ed9f",
+    "url": "/hacker-news/static/css/main.a0ef6a7f.chunk.css"
   },
   {
     "revision": "f61eb2abf2f4f8264c50",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hacker-news/static/js/2.7aa6a2d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a78bf892566f40edf15b",
-    "url": "/hacker-news/static/js/main.6fdf93ab.chunk.js"
+    "revision": "826b4b71d98d64b4ed9f",
+    "url": "/hacker-news/static/js/main.067b657a.chunk.js"
   },
   {
     "revision": "3058bd9c9b16bc5cbe6d",
