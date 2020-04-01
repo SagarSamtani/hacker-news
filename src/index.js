@@ -19,7 +19,7 @@ axiosInterceptor.config(store, history);
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-ReactDOM.render(
+ReactDOM.hydrate(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
       <Router history={history}>
